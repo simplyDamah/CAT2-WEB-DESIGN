@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgb(248, 244, 244);
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 0 0 0 0.1;
+        }
+        
+        .input-group label {
+            flex: 1;
+        }
+        .input-group input {
+            flex: 2;
+            padding: 8px;
+            border: 1px solid lightcoral;
+            border-radius: 4px;
+        }
+        
+        .input-group img {
+            margin-right: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+
+        <div class="input-group">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/name.png" alt="Name Icon">
+            <label for="name">Name</label>
+           
+        </div>
+
+        <div class="input-group">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png" alt="Email Icon">
+            <label for="email">Email</label>
+           
+        </div>
+
+        <div class="input-group">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/phone.png" alt="Phone Icon">
+            <label for="phone">Phone</label>
+            
+        </div>
+
+        <div class="input-group">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/lock.png" alt="Password Icon">
+            <label for="password">Set Password</label>
+            
+        </div>
+
+        <button type="button">Register</button>
+    </div>
+</body>
+</html>
